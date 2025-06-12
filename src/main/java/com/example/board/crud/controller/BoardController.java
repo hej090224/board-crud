@@ -22,7 +22,7 @@ public class BoardController {
         return boardService.createBoard(requestDto);
     }
 
-    @GetMapping("/boards")                                      //null 나오는거 고치기
+    @GetMapping("/boards")
     public List<BoardListResponseDto> getAllBoards() {
         return boardService.findAllBoards();
     }
