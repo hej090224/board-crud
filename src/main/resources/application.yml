@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/board_db?useSSL=false&serverTimezone=Asia/Seoul
     username: root
-    password: qaqawesd12@
+    password: //안알려줌
 
   jpa:
     hibernate:
